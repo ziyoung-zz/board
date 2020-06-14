@@ -29,7 +29,6 @@ const userSchema = mongoose.Schema({
     tokenExp:{
         type:Number
     }
-
 })
 
 const User = mongoose.model('User',userSchema)
